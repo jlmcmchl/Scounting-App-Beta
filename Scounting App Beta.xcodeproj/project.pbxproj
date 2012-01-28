@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8D385114D38F28008EC05B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385014D38F28008EC05B /* UIKit.framework */; };
+		0B8D385314D38F28008EC05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385214D38F28008EC05B /* Foundation.framework */; };
+		0B8D385514D38F28008EC05B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385414D38F28008EC05B /* CoreGraphics.framework */; };
+		0B8D385B14D38F28008EC05B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D385914D38F28008EC05B /* InfoPlist.strings */; };
+		0B8D385D14D38F28008EC05B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D385C14D38F28008EC05B /* main.m */; };
+		0B8D386114D38F28008EC05B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D386014D38F28008EC05B /* AppDelegate.m */; };
+		0B8D386414D38F28008EC05B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D386214D38F28008EC05B /* MainStoryboard.storyboard */; };
+		0B8D386714D38F28008EC05B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D386614D38F28008EC05B /* FirstViewController.m */; };
+		0B8D386914D38F28008EC05B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D386814D38F28008EC05B /* first.png */; };
+		0B8D386B14D38F28008EC05B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D386A14D38F28008EC05B /* first@2x.png */; };
+		0B8D386E14D38F29008EC05B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D386D14D38F29008EC05B /* SecondViewController.m */; };
+		0B8D387014D38F29008EC05B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D386F14D38F29008EC05B /* second.png */; };
+		0B8D387214D38F29008EC05B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D387114D38F29008EC05B /* second@2x.png */; };
+		0B8D387A14D38F29008EC05B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D387914D38F29008EC05B /* SenTestingKit.framework */; };
+		0B8D387B14D38F29008EC05B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385014D38F28008EC05B /* UIKit.framework */; };
+		0B8D387C14D38F29008EC05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385214D38F28008EC05B /* Foundation.framework */; };
+		0B8D388414D38F29008EC05B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D388214D38F29008EC05B /* InfoPlist.strings */; };
+		0B8D388714D38F29008EC05B /* Scounting_App_BetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D388614D38F29008EC05B /* Scounting_App_BetaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B8D387D14D38F29008EC05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B8D384314D38F28008EC05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B8D384B14D38F28008EC05B;
+			remoteInfo = "Scounting App Beta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8D384C14D38F28008EC05B /* Scounting App Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scounting App Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8D385014D38F28008EC05B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B8D385214D38F28008EC05B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B8D385414D38F28008EC05B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B8D385814D38F28008EC05B /* Scounting App Beta-Info.plist */ = {isa = PBXFileReference; path = "Scounting App Beta-Info.plist"; sourceTree = "<group>"; };
+		0B8D385A14D38F28008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B8D385C14D38F28008EC05B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B8D385E14D38F28008EC05B /* Scounting App Beta-Prefix.pch */ = {isa = PBXFileReference; path = "Scounting App Beta-Prefix.pch"; sourceTree = "<group>"; };
+		0B8D385F14D38F28008EC05B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B8D386014D38F28008EC05B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B8D386314D38F28008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0B8D386514D38F28008EC05B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		0B8D386614D38F28008EC05B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0B8D386814D38F28008EC05B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		0B8D386A14D38F28008EC05B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		0B8D386C14D38F28008EC05B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		0B8D386D14D38F29008EC05B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0B8D386F14D38F29008EC05B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		0B8D387114D38F29008EC05B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0B8D387814D38F29008EC05B /* Scounting App BetaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scounting App BetaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8D387914D38F29008EC05B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B8D388114D38F29008EC05B /* Scounting App BetaTests-Info.plist */ = {isa = PBXFileReference; path = "Scounting App BetaTests-Info.plist"; sourceTree = "<group>"; };
+		0B8D388314D38F29008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B8D388514D38F29008EC05B /* Scounting_App_BetaTests.h */ = {isa = PBXFileReference; path = Scounting_App_BetaTests.h; sourceTree = "<group>"; };
+		0B8D388614D38F29008EC05B /* Scounting_App_BetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scounting_App_BetaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8D384914D38F28008EC05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D385114D38F28008EC05B /* UIKit.framework in Frameworks */,
+				0B8D385314D38F28008EC05B /* Foundation.framework in Frameworks */,
+				0B8D385514D38F28008EC05B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8D387414D38F29008EC05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D387A14D38F29008EC05B /* SenTestingKit.framework in Frameworks */,
+				0B8D387B14D38F29008EC05B /* UIKit.framework in Frameworks */,
+				0B8D387C14D38F29008EC05B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8D384114D38F28008EC05B = {
+			isa = PBXGroup;
+			children = (
+				0B8D385614D38F28008EC05B /* Scounting App Beta */,
+				0B8D387F14D38F29008EC05B /* Scounting App BetaTests */,
+				0B8D384F14D38F28008EC05B /* Frameworks */,
+				0B8D384D14D38F28008EC05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8D384D14D38F28008EC05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D384C14D38F28008EC05B /* Scounting App Beta.app */,
+				0B8D387814D38F29008EC05B /* Scounting App BetaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8D384F14D38F28008EC05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D385014D38F28008EC05B /* UIKit.framework */,
+				0B8D385214D38F28008EC05B /* Foundation.framework */,
+				0B8D385414D38F28008EC05B /* CoreGraphics.framework */,
+				0B8D387914D38F29008EC05B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B8D385614D38F28008EC05B /* Scounting App Beta */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D385F14D38F28008EC05B /* AppDelegate.h */,
+				0B8D386014D38F28008EC05B /* AppDelegate.m */,
+				0B8D386214D38F28008EC05B /* MainStoryboard.storyboard */,
+				0B8D386514D38F28008EC05B /* FirstViewController.h */,
+				0B8D386614D38F28008EC05B /* FirstViewController.m */,
+				0B8D386814D38F28008EC05B /* first.png */,
+				0B8D386A14D38F28008EC05B /* first@2x.png */,
+				0B8D386C14D38F28008EC05B /* SecondViewController.h */,
+				0B8D386D14D38F29008EC05B /* SecondViewController.m */,
+				0B8D386F14D38F29008EC05B /* second.png */,
+				0B8D387114D38F29008EC05B /* second@2x.png */,
+				0B8D385714D38F28008EC05B /* Supporting Files */,
+			);
+			path = "Scounting App Beta";
+			sourceTree = "<group>";
+		};
+		0B8D385714D38F28008EC05B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D385814D38F28008EC05B /* Scounting App Beta-Info.plist */,
+				0B8D385914D38F28008EC05B /* InfoPlist.strings */,
+				0B8D385C14D38F28008EC05B /* main.m */,
+				0B8D385E14D38F28008EC05B /* Scounting App Beta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B8D387F14D38F29008EC05B /* Scounting App BetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D388514D38F29008EC05B /* Scounting_App_BetaTests.h */,
+				0B8D388614D38F29008EC05B /* Scounting_App_BetaTests.m */,
+				0B8D388014D38F29008EC05B /* Supporting Files */,
+			);
+			path = "Scounting App BetaTests";
+			sourceTree = "<group>";
+		};
+		0B8D388014D38F29008EC05B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D388114D38F29008EC05B /* Scounting App BetaTests-Info.plist */,
+				0B8D388214D38F29008EC05B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B8D384B14D38F28008EC05B /* Scounting App Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8D388A14D38F29008EC05B /* Build configuration list for PBXNativeTarget "Scounting App Beta" */;
+			buildPhases = (
+				0B8D384814D38F28008EC05B /* Sources */,
+				0B8D384914D38F28008EC05B /* Frameworks */,
+				0B8D384A14D38F28008EC05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scounting App Beta";
+			productName = "Scounting App Beta";
+			productReference = 0B8D384C14D38F28008EC05B /* Scounting App Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B8D387714D38F29008EC05B /* Scounting App BetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8D388D14D38F29008EC05B /* Build configuration list for PBXNativeTarget "Scounting App BetaTests" */;
+			buildPhases = (
+				0B8D387314D38F29008EC05B /* Sources */,
+				0B8D387414D38F29008EC05B /* Frameworks */,
+				0B8D387514D38F29008EC05B /* Resources */,
+				0B8D387614D38F29008EC05B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B8D387E14D38F29008EC05B /* PBXTargetDependency */,
+			);
+			name = "Scounting App BetaTests";
+			productName = "Scounting App BetaTests";
+			productReference = 0B8D387814D38F29008EC05B /* Scounting App BetaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8D384314D38F28008EC05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Team RUSH ";
+			};
+			buildConfigurationList = 0B8D384614D38F28008EC05B /* Build configuration list for PBXProject "Scounting App Beta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B8D384114D38F28008EC05B;
+			productRefGroup = 0B8D384D14D38F28008EC05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8D384B14D38F28008EC05B /* Scounting App Beta */,
+				0B8D387714D38F29008EC05B /* Scounting App BetaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8D384A14D38F28008EC05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D385B14D38F28008EC05B /* InfoPlist.strings in Resources */,
+				0B8D386414D38F28008EC05B /* MainStoryboard.storyboard in Resources */,
+				0B8D386914D38F28008EC05B /* first.png in Resources */,
+				0B8D386B14D38F28008EC05B /* first@2x.png in Resources */,
+				0B8D387014D38F29008EC05B /* second.png in Resources */,
+				0B8D387214D38F29008EC05B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8D387514D38F29008EC05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D388414D38F29008EC05B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8D387614D38F29008EC05B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8D384814D38F28008EC05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D385D14D38F28008EC05B /* main.m in Sources */,
+				0B8D386114D38F28008EC05B /* AppDelegate.m in Sources */,
+				0B8D386714D38F28008EC05B /* FirstViewController.m in Sources */,
+				0B8D386E14D38F29008EC05B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8D387314D38F29008EC05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D388714D38F29008EC05B /* Scounting_App_BetaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B8D387E14D38F29008EC05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B8D384B14D38F28008EC05B /* Scounting App Beta */;
+			targetProxy = 0B8D387D14D38F29008EC05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B8D385914D38F28008EC05B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8D385A14D38F28008EC05B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B8D386214D38F28008EC05B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8D386314D38F28008EC05B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0B8D388214D38F29008EC05B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8D388314D38F29008EC05B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B8D388814D38F29008EC05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0B8D388914D38F29008EC05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B8D388B14D38F29008EC05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scounting App Beta/Scounting App Beta-Prefix.pch";
+				INFOPLIST_FILE = "Scounting App Beta/Scounting App Beta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B8D388C14D38F29008EC05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scounting App Beta/Scounting App Beta-Prefix.pch";
+				INFOPLIST_FILE = "Scounting App Beta/Scounting App Beta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B8D388E14D38F29008EC05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scounting App Beta.app/Scounting App Beta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scounting App Beta/Scounting App Beta-Prefix.pch";
+				INFOPLIST_FILE = "Scounting App BetaTests/Scounting App BetaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0B8D388F14D38F29008EC05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scounting App Beta.app/Scounting App Beta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scounting App Beta/Scounting App Beta-Prefix.pch";
+				INFOPLIST_FILE = "Scounting App BetaTests/Scounting App BetaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8D384614D38F28008EC05B /* Build configuration list for PBXProject "Scounting App Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8D388814D38F29008EC05B /* Debug */,
+				0B8D388914D38F29008EC05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8D388A14D38F29008EC05B /* Build configuration list for PBXNativeTarget "Scounting App Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8D388B14D38F29008EC05B /* Debug */,
+				0B8D388C14D38F29008EC05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B8D388D14D38F29008EC05B /* Build configuration list for PBXNativeTarget "Scounting App BetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8D388E14D38F29008EC05B /* Debug */,
+				0B8D388F14D38F29008EC05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8D384314D38F28008EC05B /* Project object */;
+}
