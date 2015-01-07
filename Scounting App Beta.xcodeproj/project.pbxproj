@@ -25,6 +25,9 @@
 		0B8D387C14D38F29008EC05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D385214D38F28008EC05B /* Foundation.framework */; };
 		0B8D388414D38F29008EC05B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D388214D38F29008EC05B /* InfoPlist.strings */; };
 		0B8D388714D38F29008EC05B /* Scounting_App_BetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D388614D38F29008EC05B /* Scounting_App_BetaTests.m */; };
+		0B96B46814D43CFA00645BDE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96B46714D43CFA00645BDE /* ThirdViewController.m */; };
+		0B96B46C14D43D0E00645BDE /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96B46B14D43D0E00645BDE /* FourthViewController.m */; };
+		0B96B46F14D43D2500645BDE /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96B46E14D43D2500645BDE /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +45,33 @@
 		0B8D385014D38F28008EC05B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B8D385214D38F28008EC05B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B8D385414D38F28008EC05B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0B8D385814D38F28008EC05B /* Scounting App Beta-Info.plist */ = {isa = PBXFileReference; path = "Scounting App Beta-Info.plist"; sourceTree = "<group>"; };
+		0B8D385814D38F28008EC05B /* Scounting App Beta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scounting App Beta-Info.plist"; sourceTree = "<group>"; };
 		0B8D385A14D38F28008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B8D385C14D38F28008EC05B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0B8D385E14D38F28008EC05B /* Scounting App Beta-Prefix.pch */ = {isa = PBXFileReference; path = "Scounting App Beta-Prefix.pch"; sourceTree = "<group>"; };
-		0B8D385F14D38F28008EC05B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B8D385E14D38F28008EC05B /* Scounting App Beta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scounting App Beta-Prefix.pch"; sourceTree = "<group>"; };
+		0B8D385F14D38F28008EC05B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B8D386014D38F28008EC05B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B8D386314D38F28008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0B8D386514D38F28008EC05B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		0B8D386514D38F28008EC05B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		0B8D386614D38F28008EC05B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0B8D386814D38F28008EC05B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		0B8D386A14D38F28008EC05B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		0B8D386C14D38F28008EC05B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		0B8D386C14D38F28008EC05B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0B8D386D14D38F29008EC05B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0B8D386F14D38F29008EC05B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		0B8D387114D38F29008EC05B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		0B8D387814D38F29008EC05B /* Scounting App BetaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scounting App BetaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8D387914D38F29008EC05B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0B8D388114D38F29008EC05B /* Scounting App BetaTests-Info.plist */ = {isa = PBXFileReference; path = "Scounting App BetaTests-Info.plist"; sourceTree = "<group>"; };
+		0B8D388114D38F29008EC05B /* Scounting App BetaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scounting App BetaTests-Info.plist"; sourceTree = "<group>"; };
 		0B8D388314D38F29008EC05B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B8D388514D38F29008EC05B /* Scounting_App_BetaTests.h */ = {isa = PBXFileReference; path = Scounting_App_BetaTests.h; sourceTree = "<group>"; };
+		0B8D388514D38F29008EC05B /* Scounting_App_BetaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scounting_App_BetaTests.h; sourceTree = "<group>"; };
 		0B8D388614D38F29008EC05B /* Scounting_App_BetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scounting_App_BetaTests.m; sourceTree = "<group>"; };
+		0B96B46614D43CFA00645BDE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0B96B46714D43CFA00645BDE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0B96B46A14D43D0E00645BDE /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		0B96B46B14D43D0E00645BDE /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		0B96B46D14D43D2500645BDE /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		0B96B46E14D43D2500645BDE /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +140,13 @@
 				0B8D386A14D38F28008EC05B /* first@2x.png */,
 				0B8D386C14D38F28008EC05B /* SecondViewController.h */,
 				0B8D386D14D38F29008EC05B /* SecondViewController.m */,
+				0B96B46614D43CFA00645BDE /* ThirdViewController.h */,
+				0B96B46714D43CFA00645BDE /* ThirdViewController.m */,
 				0B8D386F14D38F29008EC05B /* second.png */,
+				0B96B46A14D43D0E00645BDE /* FourthViewController.h */,
+				0B96B46B14D43D0E00645BDE /* FourthViewController.m */,
+				0B96B46D14D43D2500645BDE /* FifthViewController.h */,
+				0B96B46E14D43D2500645BDE /* FifthViewController.m */,
 				0B8D387114D38F29008EC05B /* second@2x.png */,
 				0B8D385714D38F28008EC05B /* Supporting Files */,
 			);
@@ -283,6 +298,9 @@
 				0B8D386114D38F28008EC05B /* AppDelegate.m in Sources */,
 				0B8D386714D38F28008EC05B /* FirstViewController.m in Sources */,
 				0B8D386E14D38F29008EC05B /* SecondViewController.m in Sources */,
+				0B96B46814D43CFA00645BDE /* ThirdViewController.m in Sources */,
+				0B96B46C14D43D0E00645BDE /* FourthViewController.m in Sources */,
+				0B96B46F14D43D2500645BDE /* FifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +472,7 @@
 				0B8D388C14D38F29008EC05B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B8D388D14D38F29008EC05B /* Build configuration list for PBXNativeTarget "Scounting App BetaTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +481,7 @@
 				0B8D388F14D38F29008EC05B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
